@@ -25,8 +25,8 @@ class _NavState extends State<Nav> {
   List<Widget> pages = [
     HomePage(),
     SearchPage(),
-    ProfilePage(),
     ReelsPage(),
+    ProfilePage(),
   ];
   bool Searching = false;
 
